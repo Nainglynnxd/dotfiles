@@ -2,6 +2,7 @@
 alias c="clear"
 alias e="exit"
 alias sr="source ~/.zshrc"
+alias tree="exa -T"
 
 #Yarn
 alias ys="yarn start"
