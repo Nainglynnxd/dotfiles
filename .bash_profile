@@ -3,6 +3,8 @@ alias c="clear"
 alias e="exit"
 alias sr="source ~/.zshrc"
 alias tree="exa -T"
+alias g="exa -G"
+alias ls="exa"
 
 #Yarn
 alias ys="yarn start"
@@ -23,3 +25,6 @@ function cpa() {
 	git clone https://github.com/Nainglynnxd/react-parcel-template.git $1
 }
 
+#exa color
+export EXA_COLORS="di=32:1"
+export LS_COLORS="di=32:1"
