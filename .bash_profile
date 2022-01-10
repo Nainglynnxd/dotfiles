@@ -28,3 +28,6 @@ function cpa() {
 #exa color
 export EXA_COLORS="di=32:1"
 export LS_COLORS="di=32:1"
+
+#vim path
+[ -h '/usr/local/bin/vim' ] && alias vim='/usr/local/bin/vim'
