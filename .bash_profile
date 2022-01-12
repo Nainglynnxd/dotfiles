@@ -6,12 +6,14 @@ alias tree="exa -T"
 alias g="exa -G"
 alias ls="exa"
 
+#Deno 
+alias drun="deno run"
+
 #Yarn
 alias ys="yarn start"
 
 #Visual Studio Code - add mutliple folders to workspace
 alias vs="code --add"
-
 
 #MongoDB
 alias mgdb_start="brew services start mongodb-community@5.0"
