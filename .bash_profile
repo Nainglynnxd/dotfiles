@@ -5,6 +5,10 @@ alias sr="source ~/.zshrc"
 alias tree="exa -T"
 alias g="exa -G"
 alias ls="exa"
+alias podinstall="cd ios/ && pod install && cd .."
+
+#Git
+alias gcm="git commit -m"
 
 #Deno 
 alias drun="deno run"
@@ -33,3 +37,6 @@ export LS_COLORS="di=32:1"
 
 #vim path
 [ -h '/usr/local/bin/vim' ] && alias vim='/usr/local/bin/vim'
+
+
+
