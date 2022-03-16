@@ -11,9 +11,9 @@ alias podinstall="cd ios/ && pod install && cd .."
 alias gcm="git commit -m"
 alias admit="git add -A && git commit -m"
 alias gpo="git push origin"
-function admish() {
-  git add .
-  git commit -m "$1"
+admish() {
+  git add -A
+  git commit -m "$*"
   git push origin $(git_current_branch)
 }
 
