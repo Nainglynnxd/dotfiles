@@ -1,4 +1,4 @@
-#Basic Aliases
+
 alias c="clear"
 alias e="exit"
 alias sr="source ~/.zshrc"
@@ -9,6 +9,14 @@ alias podinstall="cd ios/ && pod install && cd .."
 
 #Git
 alias gcm="git commit -m"
+alias admit="git add -A && git commit -m"
+alias gpo="git push origin"
+function admish() {
+  git add .
+  git commit -m "$1"
+  git push origin $(git_current_branch)
+}
+
 
 #Deno 
 alias drun="deno run"
@@ -40,3 +48,8 @@ export LS_COLORS="di=32:1"
 
 
 
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
