@@ -1,4 +1,3 @@
-
 alias c="clear"
 alias e="exit"
 alias sr="source ~/.zshrc"
@@ -11,6 +10,7 @@ alias podinstall="cd ios/ && pod install && cd .."
 alias gcm="git commit -m"
 alias admit="git add -A && git commit -m"
 alias gpo="git push origin"
+alias gcr="git remote -v update"
 admish() {
   git add -A
   git commit -m "$*"
@@ -45,11 +45,4 @@ export LS_COLORS="di=32:1"
 
 #vim path
 [ -h '/usr/local/bin/vim' ] && alias vim='/usr/local/bin/vim'
-
-
-
-
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the end of this file.
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
+. "$HOME/.cargo/env"
