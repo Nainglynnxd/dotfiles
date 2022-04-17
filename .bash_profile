@@ -1,3 +1,4 @@
+#basic aliases
 alias c="clear"
 alias e="exit"
 alias sr="source ~/.zshrc"
@@ -6,7 +7,7 @@ alias g="exa -G"
 alias ls="exa"
 alias podinstall="cd ios/ && pod install && cd .."
 
-#Git
+#git
 alias gcm="git commit -m"
 alias admit="git add -A && git commit -m"
 alias gpo="git push origin"
@@ -18,20 +19,20 @@ admish() {
 }
 
 
-#Deno 
+#deno 
 alias drun="deno run"
 
-#Yarn
+#yarn
 alias ys="yarn start"
 
-#Visual Studio Code - add mutliple folders to workspace
+#visual Studio Code - add mutliple folders to workspace
 alias vs="code --add"
 
-#MongoDB
+#mongoDB
 alias mgdb_start="brew services start mongodb-community@5.0"
 alias mgdb_stop="brew services stop mongodb-community@5.0"
 
-#Enable Vi-mode
+#enable Vi-mode
 set -o vi
 
 #cp -a ~/Desktop/react-parcel-template $1

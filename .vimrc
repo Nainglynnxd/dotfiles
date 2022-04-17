@@ -1,7 +1,7 @@
-noremap [<SPACE> o<ESC>
-nnoremap ]<SPACE> O<ESC>
-nnoremap <SPACE>f ggvG=<ESC> 
-call plug#begin('~/.vim/plugged')
+" create new line in normal mode 
+nnoremap <c-k> o<ESC>
+
+:call plug#begin('~/.vim/plugged')
 
 "plugins
 Plug 'scrooloose/syntastic'
