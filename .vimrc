@@ -37,3 +37,7 @@ let g:prettier#autoformat_require_pragma = 0
 
 "autocompletejs
 set omnifunc=javascriptcomplete
+
+hi! Normal ctermbg=NONE guibg=NONE
+set notermguicolors
+set termguicolors"transparent background
