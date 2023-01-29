@@ -1,10 +1,16 @@
 #basic aliases
 alias c="clear"
+alias cat="bat"
 alias e="exit"
+alias cd="z"
 alias sr="source ~/.zshrc"
 alias tree="exa -T"
 alias g="exa -G"
+alias neo="nvim"
+#I make a lot of typing mistake of neo to noe
+alias noe="nvim"
 alias ls="exa"
+alias nm="neo main.rs"
 alias podinstall="cd ios/ && pod install && cd .."
 
 #git
@@ -18,6 +24,9 @@ admish() {
   git push origin $(git_current_branch)
 }
 
+#rust & cargo 
+alias cr="cargo run" 
+alias cb="cargo build"
 
 #deno 
 alias drun="deno run"
